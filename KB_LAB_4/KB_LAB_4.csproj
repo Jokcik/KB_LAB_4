@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CjClutter.ObjLoader.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>obj\CjClutter.ObjLoader.Loader.dll</HintPath>
+      <HintPath>CjClutter.ObjLoader.Loader.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,6 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CjClutter.ObjLoader.Loader.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
